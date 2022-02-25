@@ -3,8 +3,9 @@
 <p align="center">
    A collection of python scripts to work with Windows Hives.
    <br>
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/p0dalirius/hivetools">
-  <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
+   <img src="https://badges.pufler.dev/visits/p0dalirius/hivetools/"/>
+   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/p0dalirius/hivetools">
+   <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
   <br>
 </p>
 
