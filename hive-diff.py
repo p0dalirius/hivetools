@@ -12,7 +12,7 @@ import json
 
 
 def parseArgs():
-    print("%30s -  by @podalirius_\n" % "hive-diff v1.2")
+    print("%30s -  by Remi GASCOU (Podalirius)\n" % "hive-diff v1.2")
     parser = argparse.ArgumentParser(description="Description message")
     parser.add_argument("-A", "--hive-a", default=None, required=True, help='Hive file to convert to json')
     parser.add_argument("-B", "--hive-b", default=None, required=True, help='Hive file to convert to json')
