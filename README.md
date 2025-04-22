@@ -11,6 +11,18 @@
 
 ![](./.github/json.png)
 
+## Installation of dependencies
+
+Via python venv (on Ubuntu, you might need `sudo apt install python3-venv` first)
+
+```
+python3 -m venv ~/venv_hive
+source ~/venv_hive/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install python-registry
+python3 -m pip install rich
+```
+
 ## Examples
 
  + Get a specific key in a hive:
