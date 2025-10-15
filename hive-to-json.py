@@ -44,7 +44,17 @@ def dict_setitem_by_path(data, path, value):
         if key not in tmp.keys():
             tmp[key] = {}
         tmp = tmp[key]
-    tmp[path[-1]] = value
+    final_key = path[-1]
+    if final_key in tmp:
+        # If the key already exists, check if its value is a list
+        if isinstance(tmp[final_key], list):
+            tmp[final_key].append(value)
+        else:
+            # If not a list, convert it to a list and add the new value
+            tmp[final_key] = [tmp[final_key], value]
+    else:
+        # If the key does not exist, simply assign the value
+        tmp[final_key] = value
     return data
 
 
